@@ -38,6 +38,7 @@ $('#btnNewGame').click(function() {
     $('#PlayerModalLobby').hide();
     $('#divPlayOrder').hide();
     $('#btnRandomizeOrder').hide();
+    $();
     pickedBorder.forEach(function(border, borderIndex) {
         $('#commander'+(borderIndex+1)).removeClass(border);
     });
@@ -67,7 +68,7 @@ $('#createLobby').click(function() {
     shuffle(players);
     for(var playerIndex=0; playerIndex<players.length; playerIndex++){
         $('#playerLobby').append($("<ol></ol>").text(players[playerIndex]));
-        $('#colorLobby').append($("<div></div>").addClass(colors[playerIndex]));
+        $('#colorLobby').append($("<div></div>").addClass(colors[playerIndex]).addClass('lobbyColorMargin'));
         $('#colorLobby').find('div').eq(playerIndex).attr('id', 'divPlayerColor'+playerIndex);
     }
     $('#addPlayerModalPanel').hide();
@@ -156,7 +157,7 @@ $('#btnRandomizeOrder').click(function() {
     for(var playerIndex=0; playerIndex<players.length; playerIndex++){
         $('#divOrderNumber').append($("<ol></ol>").text((playerIndex+1)+'. '));
         $('#divOrderPlayer').append($("<ol></ol>").text(players[playerIndex]));
-        $('#divOrderColor').append($("<div></div>").addClass(colors[playerIndex]));
+        $('#divOrderColor').append($("<div></div>").addClass('lobbyColorMargin '+ colors[playerIndex]));
         $('#divOrderCommander').append($("<ol></ol>").text(pickedCommanders[playerIndex]));
     }
     $('#PlayerModalLobby').hide();
