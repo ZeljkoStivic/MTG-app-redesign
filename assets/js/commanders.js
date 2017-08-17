@@ -38,7 +38,7 @@ $('#btnNewGame').click(function() {
     $('#PlayerModalLobby').hide();
     $('#divPlayOrder').hide();
     $('#btnRandomizeOrder').hide();
-    $();
+    $('#createLobby').hide();
     pickedBorder.forEach(function(border, borderIndex) {
         $('#commander'+(borderIndex+1)).removeClass(border);
     });
@@ -59,6 +59,9 @@ $('#addPlayer').click(function() {
         playerIndex++;
         $('#playerName').val('');
         $('#playerName').focus();
+    }
+    if(players.length >= 2){
+        $('#createLobby').show();
     }
 });
 

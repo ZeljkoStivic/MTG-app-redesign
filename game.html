@@ -1,0 +1,128 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <title>MTG - Commanders</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="assets/css/main.css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/custom.css">
+</head>
+<body class="subpage">
+
+<!-- Header -->
+
+
+<!-- Nav -->
+<nav id="menu">
+    <ul class="links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="commanders.html">Commanders</a></li>
+        <li><a href="game.html">Game</a></li>
+    </ul>
+</nav>
+
+<!-- One -->
+<section id="One" class="wrapper style3">
+    <header id="header" class="alt">
+        <a class="logo logoCommander" href="index.html"></a>
+        <a href="#menu">Menu</a>
+    </header>
+    <div class="inner">
+        <header class="align-center">
+            <p>One that orders his troops and vanquishes his foes</p>
+            <h2>Commander</h2>
+        </header>
+    </div>
+</section>
+
+<!-- Two -->
+<section id="two" class="wrapper style2">
+    <div class="inner">
+
+                <!--  table  -->
+                <div id="tables">
+
+                </div>
+                <!--  /table  -->
+                <button id="btnUndo" type="button" class="btnUndo btn btn-danger">Undo</button>
+                <button id="btnCombatLog" type="button" class="btnCombatLog btn btn-danger" data-toggle="modal" data-target="#modalCombatLog">Combat Log</button>
+    </div>
+</section>
+
+<!-- Footer -->
+<footer id="footer">
+    <div class="container">
+        <ul class="icons">
+            <li><a href="#" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
+            <li><a href="#" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
+            <li><a href="#" class="icon fa-instagram"><span class="label">Instagram</span></a></li>
+            <li><a href="#" class="icon fa-envelope-o"><span class="label">Email</span></a></li>
+        </ul>
+    </div>
+    <div class="copyright">
+        &copy; Untitled. All rights reserved.
+    </div>
+</footer>
+
+<!--============================
+       FORM MODAL - PLACEMENT
+   =============================-->
+<!-- Form Modal -->
+<div id="placementModal" class="modal fade" role="dialog">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header bg-info text-white">
+                <h5 class="modal-title">Placement</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <h5 class="mb-4">GAME OVER!</h5>
+                <label for="placement">Placement:</label>
+                <div id="placement">
+
+                </div>
+            </div>
+        </div>
+    </div>
+</div>  <!--   /form modal   -->
+
+
+<!--============================
+       FORM MODAL - COMBAT LOG
+   =============================-->
+<!-- Form Modal -->
+<div id="modalCombatLog" class="modal fade" role="dialog">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header bg-info text-white">
+                <h5 class="modal-title">Combat Log</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <h5 class="mb-4">Combat Log</h5>
+                <div id="divCombatLog">
+
+                </div>
+            </div>
+        </div>
+    </div>
+</div>  <!--   /form modal   -->
+
+<!-- Scripts -->
+<script src="assets/js/jquery.min.js"></script>
+<script src="assets/js/jquery.scrollex.min.js"></script>
+<script src="assets/js/skel.min.js"></script>
+<script src="assets/js/util.js"></script>
+<script src="assets/js/main.js"></script>
+<script src="https://npmcdn.com/tether@1.2.4/dist/js/tether.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+<script src="assets/js/commanders.js"></script>
+<script src="assets/js/jquery.cookie.js"></script>
+<script src="assets/js/game.js"></script>
+</body>
+</html>
