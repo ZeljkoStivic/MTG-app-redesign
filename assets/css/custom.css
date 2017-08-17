@@ -1,0 +1,313 @@
+/*---------------------------------- NAV ----------------------------------*/
+
+.logoCommander {
+    width: 190px;
+    height: 47.6px;
+    background: url('../../images/logo_mtg.png');
+    background-size: cover;
+
+}
+
+nav {
+    height: 6em;
+    background-color: rgba(44, 49, 69, 0.45);
+}
+
+.navbar-nav {
+    padding-left: 200px;
+}
+
+.jumbotron {
+    background: url('../../images/jumbotron_wallpaper.jpg');
+    background-size: cover;
+}
+
+nav.navbar{
+// Animation
+-webkit-transition: all 0.4s ease;
+    transition: all 0.4s ease;
+}
+
+nav.navbar.shrink {
+    height: 2.75em;
+
+}
+
+.logo.shrink {
+    width: 176.5px;
+    height: 48px;
+    background: url('../../images/logo_mtg.png');
+    background-size: cover;
+}
+
+/*---------------------------------- /NAV ----------------------------------*/
+
+/*---------------------------------- FONTS ----------------------------------*/
+
+@font-face {
+    font-family: Magic;
+    src: local("MAGIC"),
+    url(../fonts/MAGIC.TTF);
+    font-weight: bold;
+}
+
+body {
+    font-family: "Magic", serif;
+}
+
+.btn {
+    font-family: "Magic", serif;
+}
+
+.nav-link {
+    font-size: x-large;
+}
+
+/*---------------------------------- /FONTS ----------------------------------*/
+
+/*---------------------------------- INDEX ----------------------------------*/
+
+.jumbotron {
+    margin-top: 96px;
+}
+
+.LoginColor{
+    color: rgb(239, 77, 37) !important;
+    border-color: rgb(239, 77, 37) !important;
+}
+
+body {
+    background-color: rgba(44, 49, 69, 0.45);
+}
+
+
+
+/*---------------------------------- /INDEX ----------------------------------*/
+
+/*---------------------------------- COMMANDERS ----------------------------------*/
+
+#btnNewGame, #btnPlayers {
+    width: 100px;
+    height: 40px;
+    margin-top: 100px;
+    margin-left: 10px;
+    background-color: rgb(239, 77, 37);
+}
+
+.newGameColor {
+    background-color: rgb(114, 120, 45) !important;
+}
+
+.btn, .active {
+    transition: .4s;
+}
+
+#arrowPlayer {
+     width: 40px;
+     height: 40px;
+     margin-top: 100px;
+     margin-left: 10px;
+     display: none;
+ }
+
+#arrowPick {
+    width: 40px;
+    height: 40px;
+    margin-top: 100px;
+    margin-left: 10px;
+    display: none;
+}
+
+.playerPickMainScreen{
+    width: 100px;
+    height: 24px;
+    margin-top: 110px;
+    margin-left: 10px;
+    display: none;
+}
+
+#btnPlayers {
+    display: none;
+}
+
+.playerPickPlayer {
+    padding: 0px;
+    width: 100px;
+    font-size: larger;
+    display: inline-block;
+}
+
+.playerPickColor {
+    padding: 0px;
+    width: 100px;
+    margin-left: 10px;
+    margin-top: 6.5px;
+    display: inline-block;
+}
+
+.btn-sm {
+    margin-bottom: 12px;
+}
+
+.hiddenButton {
+    display: none;
+}
+
+/*---------------------------------- COLORS ----------------------------------*/
+
+.red{
+    width: 20px;
+    height: 10px;
+    background-color: red;
+    margin-bottom: 33px;
+}
+
+.blue{
+    width: 20px;
+    height: 10px;
+    background-color: blue;
+    margin-bottom: 33px;
+}
+
+.yellow{
+    width: 20px;
+    height: 10px;
+    background-color: yellow;
+    margin-bottom: 33px;
+}
+
+.green{
+    width: 20px;
+    height: 10px;
+    background-color: green;
+    margin-bottom: 33px;
+}
+
+.black{
+    width: 20px;
+    height: 10px;
+    background-color: black;
+    margin-bottom: 33px;
+}
+
+.violet {
+    width: 20px;
+    height: 10px;
+    background-color: violet;
+    margin-bottom: 33px;
+}
+
+.firstPickBorder {
+    border: solid 3px red;
+}
+
+.secondPickBorder {
+    border: solid 3px blue;
+}
+
+.thirdPickBorder {
+    border: solid 3px yellow;
+}
+
+.fourthPickBorder {
+    border: solid 3px green;
+}
+
+.fifthPickBorder {
+    border: solid 3px black;
+}
+
+.sixthPickBorder {
+    border: solid 3px violet;
+}
+
+
+/*---------------------------------- /COLORS ----------------------------------*/
+
+/*---------------------------------- /COMMANDERS ----------------------------------*/
+
+/*---------------------------------- GAME ----------------------------------*/
+
+#tables {
+    margin-top: 120px;
+    width: 1000px;
+    border-radius: 15px;
+    border: solid 1px black;
+    background: white;
+    box-shadow: 0 0 50px 10px rgba(0, 0, 0, 1);
+}
+
+.table0 {
+    width: 1000px;
+}
+.table1 {
+    width: 1000px;
+}
+.table2 {
+    width: 1000px;
+}
+.table3 {
+    width: 1000px;
+}
+.table4 {
+    width: 1000px;
+}
+.table5 {
+    width: 1000px;
+}
+
+td {
+    width: 500px;
+}
+
+#main {
+    width: 1000px;
+}
+
+.card-img-top {
+    height: 275px;
+}
+
+#players {
+    width: 600px;
+    margin: auto;
+    overflow-y: auto;
+    max-height: 800px;
+}
+
+.btn-success {
+   margin-left: 5px !important;
+   margin-top: 5px !important;
+   font-family: Serif;
+}
+
+.spearator {
+    margin-right: 50px !important;
+}
+
+#undo {
+    margin-top: 25px;
+}
+
+.btnUndo, .btnCombatLog {
+    margin-top: 25px;
+    margin-right: 10px;
+    margin-bottom: 15px;
+}
+
+.bottomBorderClass{
+    border-bottom: solid 1px black;
+}
+
+.tableRowBodyFontFamilyAndSize {
+    font-size: x-large;
+    font-family: Serif;
+}
+
+.cardContent {
+    height: 305px;
+}
+
+.commanderFit {
+    height: 400px;
+}
