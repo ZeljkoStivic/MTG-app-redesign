@@ -2038,7 +2038,7 @@
 		input[type="button"].special,
 		button.special,
 		.button.special {
-			background-color: #8a4680;
+			background-color: rgb(239, 77, 37);
 			color: #ffffff !important;
 		}
 
@@ -2047,7 +2047,7 @@
 			input[type="button"].special:hover,
 			button.special:hover,
 			.button.special:hover {
-				background-color: #9b4f90;
+				background-color: rgb(239, 77, 37);
 			}
 
 			input[type="submit"].special:active,
@@ -2055,7 +2055,7 @@
 			input[type="button"].special:active,
 			button.special:active,
 			.button.special:active {
-				background-color: #793d70;
+				background-color: rgb(239, 77, 37);
 			}
 
 /* Form */
@@ -2244,8 +2244,8 @@
 		input[type="email"]:focus,
 		select:focus,
 		textarea:focus {
-			border-color: #8a4680;
-			box-shadow: 0 0 0 1px #8a4680;
+			border-color: rgb(239, 77, 37);
+			box-shadow: 0 0 0 1px rgb(239, 77, 37);
 		}
 
 	.select-wrapper:before {
@@ -2265,15 +2265,15 @@
 
 	input[type="checkbox"]:checked + label:before,
 	input[type="radio"]:checked + label:before {
-		background-color: #8a4680;
-		border-color: #8a4680;
+		background-color: rgb(239, 77, 37);
+		border-color: rgb(239, 77, 37);
 		color: #ffffff;
 	}
 
 	input[type="checkbox"]:focus + label:before,
 	input[type="radio"]:focus + label:before {
-		border-color: #8a4680;
-		box-shadow: 0 0 0 1px #8a4680;
+		border-color: rgb(239, 77, 37);
+		box-shadow: 0 0 0 1px rgb(239, 77, 37);
 	}
 
 	::-webkit-input-placeholder {
@@ -2681,7 +2681,7 @@
 		}
 
 		.wrapper.style1 {
-			background-color: #8a4680;
+			background-color: rgb(239, 77, 37);
 			color: #e2d1df;
 		}
 
@@ -2783,7 +2783,7 @@
 				.wrapper.style1 button.special,
 				.wrapper.style1 .button.special {
 					background-color: #ffffff;
-					color: #8a4680 !important;
+					color: rgb(239, 77, 37) !important;
 				}
 
 			.wrapper.style1 label {
@@ -2827,7 +2827,7 @@
 			.wrapper.style1 input[type="radio"]:checked + label:before {
 				background-color: #ffffff;
 				border-color: #ffffff;
-				color: #8a4680;
+				color: rgb(239, 77, 37);
 			}
 
 			.wrapper.style1 input[type="checkbox"]:focus + label:before,
@@ -2898,7 +2898,7 @@
 			}
 
 			.wrapper.style2 a {
-				color: #8a4680;
+				color: rgb(239, 77, 37);
 			}
 
 			.wrapper.style2 strong, .wrapper.style2 b {
@@ -2974,7 +2974,7 @@
 				.wrapper.style2 input[type="button"].special,
 				.wrapper.style2 button.special,
 				.wrapper.style2 .button.special {
-					background-color: #8a4680;
+					background-color: rgb(239, 77, 37);
 					color: #ffffff !important;
 				}
 
@@ -2983,7 +2983,7 @@
 					.wrapper.style2 input[type="button"].special:hover,
 					.wrapper.style2 button.special:hover,
 					.wrapper.style2 .button.special:hover {
-						background-color: #9b4f90;
+						background-color: rgb(239, 77, 37);
 					}
 
 					.wrapper.style2 input[type="submit"].special:active,
@@ -2991,7 +2991,7 @@
 					.wrapper.style2 input[type="button"].special:active,
 					.wrapper.style2 button.special:active,
 					.wrapper.style2 .button.special:active {
-						background-color: #793d70;
+						background-color: rgb(239, 77, 37);
 					}
 
 			.wrapper.style2 label {
@@ -3012,8 +3012,8 @@
 				.wrapper.style2 input[type="email"]:focus,
 				.wrapper.style2 select:focus,
 				.wrapper.style2 textarea:focus {
-					border-color: #8a4680;
-					box-shadow: 0 0 0 1px #8a4680;
+					border-color: rgb(239, 77, 37);
+					box-shadow: 0 0 0 1px rgb(239, 77, 37);
 				}
 
 			.wrapper.style2 .select-wrapper:before {

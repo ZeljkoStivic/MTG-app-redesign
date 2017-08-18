@@ -188,7 +188,7 @@
 <div id="players" class="modal fade" role="dialog">
     <div class="modal-dialog modal-lg" role="document">
         <div class="modal-content">
-            <div class="modal-header bg-info text-white">
+            <div class="modal-header bg-danger text-white">
                 <h5 class="modal-title">Creating New Game</h5>
                 <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                     <span aria-hidden="true">&times;</span>
@@ -209,16 +209,19 @@
                             <label for="playerName">Name:</label>
                             <input type="text" class="form-control" id="playerName">
                         </div>
-                        <button id="addPlayer" type="submit" class="btn btn-primary">Add player</button>
+                        <button id="addPlayer" type="submit" class="btn btn-primary text-white">Add player</button>
                         <div class="form-group my-4">
                             <label for="playerGrid">Players:</label>
                             <div class="row">
-                                <div id="playerGrid" class="col-md-12">
+                                <div id="playerGrid" class="col-md-6">
+
+                                </div>
+                                <div id="divPlayerRemove" class="col-md-6">
 
                                 </div>
                             </div>
                         </div>
-                        <button id="createLobby" type="submit" class="btn btn-primary">Create Lobby</button>
+                        <button id="createLobby" type="submit" class="btn btn-primary text-white">Create Lobby</button>
                     </div>
                     <!-- /Form Modal - PRE LOBBY  -->
                     <!-- Form Modal - LOBBY  -->
@@ -242,9 +245,9 @@
                                 </div>
                             </div>
                         </div>
-                        <button id="pickCommander" type="submit" class="btn btn-primary">Pick Commander</button>
-                        <button id="randomizeCommander" type="submit" class="btn btn-primary">Random Commander</button>
-                        <button id="btnRandomizeOrder" type="submit" class="btn btn-primary hiddenButton">Randomize play order</button>
+                        <button id="pickCommander" type="submit" class="btn btn-primary text-white">Pick Commander</button>
+                        <button id="randomizeCommander" type="submit" class="btn btn-primary text-white">Random Commander</button>
+                        <button id="btnRandomizeOrder" type="submit" class="btn btn-primary hiddenButton text-white">Randomize play order</button>
                     </div>
                     <!-- Form Modal - PLAY ORDER  -->
                     <div id="divPlayOrder">
@@ -270,7 +273,7 @@
                     <!-- /Form Modal - PLAY ORDER  -->
                     <!-- /Form Modal - LOBBY  -->
                     <hr class="mb-4">
-                    <button type="submit" id="btnCreateNewGame" class="btn btn-primary btn-lg hiddenButton">Create new game</button>
+                    <button type="submit" id="btnCreateNewGame" class="btn btn-primary btn-lg hiddenButton text-white">Create new game</button>
                 </form>
             </div>
         </div>

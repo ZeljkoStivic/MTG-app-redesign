@@ -93,6 +93,20 @@ body {
     background-color: rgb(239, 77, 37);
 }
 
+.bg-danger{
+    background-color: rgb(239, 77, 37) !important;
+}
+
+.btn-primary {
+    background-color: black;
+    border-color: rgb(239, 77, 37) !important;
+}
+
+.btn-primary:hover {
+    background-color: rgb(53, 46, 41) !important;
+    border-color: rgb(239, 77, 37) !important;
+}
+
 .newGameColor {
     background-color: rgb(114, 120, 45) !important;
 }
@@ -233,10 +247,6 @@ td {
     width: 500px;
 }
 
-#main {
-    width: 1000px;
-}
-
 .card-img-top {
     height: 275px;
 }
@@ -252,6 +262,7 @@ td {
    margin-left: 5px !important;
    margin-top: 5px !important;
    font-family: Serif;
+    border-color: rgb(239, 77, 37) !important;
 }
 
 .spearator {

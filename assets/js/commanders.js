@@ -55,7 +55,9 @@ $('#addPlayer').click(function() {
     event.preventDefault();
     if($('#playerName').val() != '') {
         players[playerIndex]=$('#playerName').val();
-        $('#playerGrid').append($("<ol></ol>").text(players[playerIndex]));
+        $('#playerGrid').append($("<ol></ol>").text(players[playerIndex]).addClass('player'+playerIndex));
+        $('#divPlayerRemove').append($("<button></button>").addClass('btn btn-sm btn-primary text-white btnRemovePlayer'+playerIndex).text('Remove').css("display","block"));
+        btnRemovePlayer(playerIndex);
         playerIndex++;
         $('#playerName').val('');
         $('#playerName').focus();
@@ -64,6 +66,21 @@ $('#addPlayer').click(function() {
         $('#createLobby').show();
     }
 });
+
+/*---------------------------------- BTN IN MODAL THAT REMOVES A PLAYER TO THE POOL BEFORE CREATING A LOBBY ON MODAL ----------------------------------*/
+function btnRemovePlayer(index){
+    $('#divPlayerRemove').on('click', '.btnRemovePlayer'+index, function(e) {
+        e.preventDefault();
+        $('#playerGrid').empty();
+        $('#divPlayerRemove').empty();
+        players.splice(index, 1);
+        playerIndex--;
+        players.forEach(function(player, Index) {
+            $('#playerGrid').append($("<ol></ol>").text(players[Index]).addClass('player'+Index));
+            $('#divPlayerRemove').append($("<button></button>").addClass('btn btn-sm btn-primary text-white btnRemovePlayer'+Index).text('Remove').css("display","block"));
+        });
+    });
+}
 
 /*---------------------------------- BTN IN MODAL THAT CREATES A LOBBY WITH RANDOM PICK ORDER FROM A PLAYER POOL ----------------------------------*/
 $('#createLobby').click(function() {
@@ -88,7 +105,7 @@ $('#randomizeCommander').click(function() {
         $('#commanderLobby').append($("<ol></ol>").text(commanders[commanderIndex]));
         $('#commanderLobby').find('ol').eq(commanderIndex).attr('id', 'olLobbyCommander'+commanderIndex);
         pickedCommanders[pickedCommanderIndex]=commanders[commanderIndex];
-        $('.reRoll').append($("<button></button>").addClass('btn btn-primary btn-sm').text("ReRoll"));
+        $('.reRoll').append($("<button></button>").addClass('btn btn-primary text-white btn-sm').text("ReRoll"));
         $('.reRoll').find('button').eq(commanderIndex).attr('id', 'btnReRoll'+commanderIndex);
     }
     $('#randomizeCommander').hide();
