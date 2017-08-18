@@ -2,12 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dc2122c0-f17d-4871-bd5c-89e529047d48" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/css/custom.css" afterPath="$PROJECT_DIR$/assets/css/custom.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/css/main.css" afterPath="$PROJECT_DIR$/assets/css/main.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/js/commanders.js" afterPath="$PROJECT_DIR$/assets/js/commanders.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/commanders.html" afterPath="$PROJECT_DIR$/commanders.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/game.html" afterPath="$PROJECT_DIR$/game.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -70,8 +65,8 @@
       <file leaf-file-name="commanders.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/assets/js/commanders.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="250">
-              <caret line="82" column="1" lean-forward="false" selection-start-line="82" selection-start-column="1" selection-end-line="82" selection-end-column="1" />
+            <state relative-caret-position="561">
+              <caret line="83" column="16" lean-forward="true" selection-start-line="83" selection-start-column="16" selection-end-line="83" selection-end-column="16" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
               </folding>
@@ -250,12 +245,12 @@
       <workItem from="1502866604902" duration="270000" />
       <workItem from="1502867149134" duration="17552000" />
       <workItem from="1502953220699" duration="22000" />
-      <workItem from="1502954926209" duration="16608000" />
+      <workItem from="1502954926209" duration="17046000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="34452000" />
+    <option name="totallyTimeSpent" value="34890000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -268,6 +263,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2494043" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3287483" sideWeight="0.49722" order="6" side_tool="false" content_ui="tabs" />
@@ -593,8 +589,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/assets/js/commanders.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="82" column="1" lean-forward="false" selection-start-line="82" selection-start-column="1" selection-end-line="82" selection-end-column="1" />
+        <state relative-caret-position="561">
+          <caret line="83" column="16" lean-forward="true" selection-start-line="83" selection-start-column="16" selection-end-line="83" selection-end-column="16" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>

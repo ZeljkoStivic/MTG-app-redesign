@@ -28,6 +28,7 @@ $('#btnNewGame').click(function() {
     $('#divOrderPlayer').empty();
     $('#divOrderColor').empty();
     $('#divOrderCommander').empty();
+    $('#divPlayerRemove').empty();
     $('.playerPickColor').removeClass(colors[0]);
     $('#btnPlayers').addClass("newGameColor");
     $('#addPlayerModalPanel').show();
@@ -79,6 +80,11 @@ function btnRemovePlayer(index){
             $('#playerGrid').append($("<ol></ol>").text(players[Index]).addClass('player'+Index));
             $('#divPlayerRemove').append($("<button></button>").addClass('btn btn-sm btn-primary text-white btnRemovePlayer'+Index).text('Remove').css("display","block"));
         });
+        if(players.length >= 2){
+            $('#createLobby').show();
+        } else {
+            $('#createLobby').hide();
+        }
     });
 }
 
